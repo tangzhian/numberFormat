@@ -1,0 +1,23 @@
+{
+    "name": "number-format/number-format",
+    "description": "一个处理数字的包",
+    "authors": [
+        {
+            "name": "丶之岸",
+            "email": "641593762@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "numberFormat\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "9.6.x-dev"
+    }
+}
